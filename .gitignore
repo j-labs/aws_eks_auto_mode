@@ -1,0 +1,5 @@
+.terraform/
+
+# Just so you don't accidentally commit your state file if you use local state
+terraform.tfstate
+terraform.tfstate.backup
