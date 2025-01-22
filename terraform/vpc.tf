@@ -1,4 +1,4 @@
-# I went the least effort way and used the official module from the Terraform registry.
+# I didn’t want to put a lot of effort in it so I used the official module from the Terraform registry.
 # This is the module supported by Anton Babenko and his modules are well maintained and well tested.
 module "jlabs_eks_poc_vpc" {
   source = "terraform-aws-modules/vpc/aws"
